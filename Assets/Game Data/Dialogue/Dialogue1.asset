@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cb5a8c070c44d48bbbf7e76f937158, type: 3}
+  m_Name: Dialogue1
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    Image: {fileID: 0}
+    text: .
+    hsaOption: 0
+    opition: []
+    dialogueData: {fileID: 0}
+  - ID: 2
+    Image: {fileID: 0}
+    text: ..
+    hsaOption: 0
+    opition: []
+    dialogueData: {fileID: 0}
+  - ID: 3
+    Image: {fileID: 0}
+    text: ...
+    hsaOption: 0
+    opition: []
+    dialogueData: {fileID: 0}
+  - ID: 4
+    Image: {fileID: 0}
+    text: "\u90A3\u4E2A\u4E1C\u897F...\u770B\u5F97\u89C1\u5417\uFF1F"
+    hsaOption: 1
+    opition:
+    - text: "\u770B\u5F97\u89C1..."
+      narrationText: "\u4F60\u6709\u4E9B\u4E0D\u5BF9\u52B2\u4E86"
+      Image: {fileID: 21300000, guid: 61060dd3e66263542ab02909b617cf02, type: 3}
+      ImagePos: {x: -60, y: 110, z: 0}
+      closeUp: {fileID: 21300000, guid: e112a9cfb05226240a726a625be7f617, type: 3}
+      nextDialogue: {fileID: 11400000, guid: 241c2b458d9180a4e8cc99ece966e35a, type: 2}
+    - text: "\u4EC0\u4E48\uFF1F"
+      narrationText: "\u4ED4\u7EC6\u770B\u770B\uFF0C\u771F\u7684\u4EC0\u4E48\u90FD\u6CA1\u6709\u5417\uFF1F"
+      Image: {fileID: 0}
+      ImagePos: {x: 0, y: 0, z: 0}
+      closeUp: {fileID: 0}
+      nextDialogue: {fileID: 11400000, guid: ba3ab0fb1e8c90342ba39ad940be8bcd, type: 2}
+    dialogueData: {fileID: 0}
